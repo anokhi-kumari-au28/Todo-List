@@ -3,18 +3,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #282c34;
+    background-color: #0c162b;
 }
 
 .container {
+    border-radius: 30px;
     display: flex;
-    height: 80vh;
-    border: 1px solid grey;
+    height: 70vh;
+    border: 1px solid rgb(173, 172, 172);
     padding: 20px;
     flex-direction: column;
     align-items: center;
     font-size: 20px;
-    color: white;
+    color: rgb(191, 236, 233);
+    background-color: #4f5a74;
 }
 
 .todoForm {
@@ -24,16 +26,16 @@
 }
 
 input {
-    width: 80%;
+    width: 90%;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
 }
 
 button {
     border: none;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
     margin: 0 5px;
 }
 
@@ -44,9 +46,9 @@ button {
 }
 
 .singleTodo {
-    border-radius: 50px;
+    border-radius: 40px;
     margin: 10px 0;
-    background-color: #5dadf8;
+    background-color: #0e2e4d;
     padding: 10px 20px;
     display: flex;
     width: 450px;

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
 
@@ -24,6 +25,8 @@ const App = () => {
             return;
         }
 
+        
+
         if (todo !== "") {
             setTodos([{ id: `${todo}-${Date.now()}`, todo }, ...todos]);
             setTodo("");
@@ -40,6 +43,8 @@ const App = () => {
         setTodo(editTodo.todo);
         setEditId(id);
     };
+    
+    
 
     return ( <
         div className = "App" >
@@ -57,6 +62,9 @@ const App = () => {
         handleEdit = { handleEdit }
         handleDelete = { handleDelete }
         /> </div> </div>
+        
+          
+            
     );
 };
 
